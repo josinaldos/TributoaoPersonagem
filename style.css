@@ -1,0 +1,102 @@
+body{
+    background-color: aqua;
+    margin-top: auto;
+    justify-content: center;
+    float: left;
+    
+   
+}
+
+img{
+    width: 150px;
+    padding: 5px;
+}
+div img{
+    width: 550px;
+    height: 600px;
+    display: inline-block;
+    border: 3px solid green;
+    justify-content: end;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-left: 30px;
+
+}
+
+li{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    margin-top: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    display: inline;
+}
+
+#header{
+    list-style-type: none;
+}
+
+
+
+div{
+    color: rgba(0, 0, 0, 0.959);
+}
+section{
+    background-color: rgb(123, 171, 230);
+    margin: 0 auto;
+    padding-right: 20px;
+    font-size: 27px;
+}
+
+#box1{
+    background-color: rgb(4, 0, 255);
+    width: 200px;
+    position: relative;
+    top: 200px;
+    left:750px;
+    text-align: left;
+    justify-content: flex-end;
+    
+    
+}
+
+
+#box2{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+#box3{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.banner{
+    background-color: rgb(0, 204, 255);
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+
+#rodape{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: #5c5c5c;
+    font-size: 30px;
+    height: 80px;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    align-items: center;
+    
+    
+}
